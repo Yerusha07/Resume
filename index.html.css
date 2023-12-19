@@ -1,0 +1,64 @@
+img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  /* border: ridge 5px; */
+  padding: 2px;
+}
+span {
+  padding: 10px;
+}
+body {
+  columns: 2;
+  /* background-image: url(https://www.photo-global.com/images/background.jpg);
+
+    background-repeat: no-repeat; */
+  background-size: cover;
+  /* color: rgb(18, 4, 4); */
+    padding: 0px;
+  /* border-color: black; */    
+  width: 500px;
+}
+
+h1 {
+  border: ridge groove;
+  /* background-color: rgb(22, 21, 22); */
+  padding: 20px;
+}
+
+h2,
+div {
+  /* border: ridge groove; */
+  /* background-color: rgb(22, 21, 22); */
+  padding: 2px 10px;
+}
+
+section[id="id1"] {
+  background-color: rgb(209, 243, 211, 0.6);
+  border-right: solid 1px;
+  right: 50%;
+}
+section > p {
+  text-align: left;
+  padding: 1px 10px;
+}
+
+div.section{
+
+  border-left: 1px solid rgb(11, 10, 8) ;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+
+
+}
+
+/* div.line{
+  border-left: 6px ridge;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+
+} */
+
+    
